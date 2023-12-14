@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Liquor Bar</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="spirit.css">
+</head>
+<body>
+    
+    <div class="navigator">
+        <div class="navbar">
+            <img src="pic/logo.png" class="logo">
+
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="about">About Us</a></li>
+                <li><a href="spirits">The Spirits</a></li>
+                <li><a href="cocktails">Crafted Cocktails</a></li>
+                <li><a href="beer">Beer</a></li>
+                <li><a href="order">Order</a></li>
+                <li><a href="contact">Contact Us</a></li>
+                <li><a href="faq">FAQs</a></li>
+            </ul>
+        </div>
+    </div> <!-- Added missing opening div tag -->
+
+    <main>
+        <section class="spirits">
+            <h2><span>The Spirits</span></h2>
+            <ul class="product-list">
+                <li class="product-container">
+                    <h3>Whiskies</h3>
+                    <img src="pic/whiskey.jpg" alt="Whiskies">
+                    <p class="product-name">Single Malt Whisky</p>
+                    <p class="product-price">$50.00</p>
+                </li>
+
+                <li class="product-container">
+                    <h3>Gins</h3>
+                    <img src="pic/london.jpg" alt="Gins">
+                    <p class="product-name">London Dry Gin</p>
+                    <p class="product-price">$35.00</p>
+                </li>
+
+                <li class="product-container">
+                    <h3>Rums</h3>
+                    <img src="pic/rum.jpg" alt="Rums">
+                    <p class="product-name">Dark Caribbean Rum</p>
+                    <p class="product-price">$40.00</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <div class="back-container">
+        <a href="about" class="back-button">Back</a>
+        <a href="cocktails" class="back-button">Next</a>
+    </div>
+
+</body>
+</html>
