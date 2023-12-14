@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Liquor Bar</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    
+    <div class="navigator">
+        <div class="navbar">
+            <img src="pic/logo.png" class="logo">
+
+            <ul>
+                <li><a href="home">Home</a></li>
+                <li><a href="about">About Us</a></li>
+                <li><a href="spirits">The Spirits</a></li>
+                <li><a href="cocktails">Crafted Cocktails</a></li>
+                <li><a href="beer">Beer</a></li>
+                <li><a href="order">Order</a></li>
+                <li><a href="contact">Contact Us</a></li>
+                <li><a href="faq">FAQs</a></li>
+            </ul>
+        </div>
+        <!-- Banner Section -->
+    <section class="banner">
+        <img src="pic/banner.png" alt="Liquor Bar Banner">
+
+    </section>
+
+    <main>
+        <!-- About Us Section -->
+        <section class="about-us">
+            <h2>About Us</h2>
+
+            <p>Welcome to Liquor Bar, your go-to destination for premium spirits, crafted cocktails, <br>
+                 and a curated selection of beers. At Liquor Bar, we are passionate about delivering exceptional <br>
+                 drinks and creating memorable experiences for our customers.</p>
+
+            <p>Our journey began with a vision to provide a unique and diverse range of alcoholic beverages to <br>
+                 brenthusiasts and connoisseurs alike. We take pride in sourcing high-quality spirits from around the world, <br>
+                  ensuring that each product reflects the rich traditions and craftsmanship of its origin.</p>
+
+            <p>Whether you are a whiskey connoisseur, a cocktail enthusiast, or a beer lover, <br>
+                we have something special for every palate. Our team of experts is dedicated to curating <br>
+                a collection that meets the highest standards of taste and quality.</p>
+
+            <p>At Liquor Bar, we believe in the art of mixology and the joy of savoring a well-crafted drink. <br>
+                 Explore our website, discover the spirits, cocktails, and beers we offer, <br>
+                  and embark on a journey of flavor and indulgence.</p>
+
+            <p>Cheers to great moments and unforgettable libations!</p>
+        </section>
+        <div class="back-container">
+            <a href="home" class="back-button">Back</a>
+            <a href="spirits" class="back-button">Next</a>
+        </div>
+    </main>
+
+      
+
+</body>
+</html>
