@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Liquor Bar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+    
+    <div class="navigator">
+        <div class="navbar">
+            <img src="pic/logo.png" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="spirits.html">The Spirits</a></li>
+                <li><a href="cocktails.html">Crafted Cocktails</a></li>
+                <li><a href="beer.html">Beer</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="faq.html">FAQs</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <main>
+        <section class="order">
+            <h2>Place Your Order</h2>
+            <p>Welcome to our Order section! Select your favorite items from our menu and enjoy the convenience of home delivery.</p>
+
+            <div class="order-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="product">Select Product:</label>
+                <select id="product" name="product" required>
+                    <option value="sunset_bliss_martini">Sunset Bliss Martini - $12.99</option>
+                    <option value="tropical_breeze_mojito">Tropical Breeze Mojito - $9.50</option>
+                    <option value="sparkling_citrus_fizz">Sparkling Citrus Fizz - $14.75</option>
+                </select>
+
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+
+                <button type="submit">Place Order</button>
+            </div>
+        </section>
+        <div class="back-container">
+            <a href="cocktails.html" class="back-button">Back</a>
+            <a href="contact.html" class="back-button">Next</a>
+        </div>
+    </main>
+</body>
+</html>
