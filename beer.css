@@ -102,6 +102,7 @@ main {
 }
 
 .product-price {
+    font-weight: bold;
     color: orangered;
     background-color: #b5c2c7;
 }

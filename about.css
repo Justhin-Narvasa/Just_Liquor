@@ -105,3 +105,15 @@ ul li a:hover {
     color: red;
     font-size: 25px;
 }
+
+.banner {
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.banner img {
+    width: 100%;
+    max-height: 400px;
+    border-radius: 10px;
+}

@@ -6,6 +6,7 @@
     padding: 0;
 }
 
+
 .navigator {
     width: 100%;
     background-color: #1d3a32;
@@ -102,8 +103,9 @@ ul li a:hover {
 }
 
 .image img {
+    filter: drop-shadow(16px 7px 8px #92013e);
     position: absolute;
-    height: 140%;
+    height: 150%;
     left: 40%;
     transform: translate(-55%);
     bottom: 0;
