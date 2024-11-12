@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Just Liquor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="icon" href="pic/title.png" type="image/x-icon">
+
+</head>
+<body>
+    
+    <div class="navigator">
+        <div class="navbar">
+            <img src="pic/logo.png" class="logo">
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="spirits.html">The Spirits</a></li>
+                <li><a href="cocktails.html">Crafted Cocktails</a></li>
+                <li><a href="beer.html">Beer</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="faq.html">FAQs</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <main>
+        <section class="contact">
+            <h2><span>Contact Us</span></h2>
+            <div class="back-container">
+                <a href="order.html" class="back-button">Back</a>
+                <a href="faq.html" class="back-button">Next</a>
+            </div>
+            <p>We would love to hear from you! <br>
+                 If you have any questions, suggestions, or just want to say hello, <br>
+                 feel free to reach out to us using the contact information below.</p>
+
+            <div class="contact-info">
+                <p><strong>Email:</strong> justhin.narvasa@zdspgc.edu.ph</p>
+                <p><strong>Phone:</strong> +639488484088</p>
+                <p><strong>Address:</strong> San Jose, Aurora ,ZDS</p>
+            </div>
+
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form action="submit_contact_form.php" method="post">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,140 @@
+* {
+    background-color: #1d3a32;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navigator {
+    width: 100%;
+    background-color: #1d3a32;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar {
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 160px;
+    height: 70px;
+    margin-left: 0;
+}
+
+ul {
+    margin-top: -4%;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 3%;
+    transition: .4s ease;
+}
+
+ul li a:hover {
+    color: rgb(230, 104, 59);
+}
+
+.info {
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    color: rgb(36, 32, 30);
+}
+
+.info h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.info span {
+    color: rgb(230, 104, 59);
+}
+
+.image {
+    width: 30%;
+    height: 45%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+.image img {
+    filter: drop-shadow(16px 7px 8px #92013e); 
+    position: absolute;
+    height: 200%;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+    background-color: transparent;
+}
+
+.image:hover .gwapo {
+    left: 55%;
+}
+
+
+.back-container {
+    text-align: center;
+    margin-top: 60px;
+    position: relative;
+    
+}
+
+.back-button {
+    align-items: center;
+    position: relative;
+}
+
+
+.back-button .next-icon {
+    width: 50px;
+    height: auto;
+    margin-left: 10px; 
+    transition: transform 0.3s ease;
+}
+
+.back-button:hover .next-icon {
+    transform: scale(1.1); 
+}
+
+.back-button .next-icon {
+    position: absolute;
+    left: -60px; 
+
+}
+
+
+

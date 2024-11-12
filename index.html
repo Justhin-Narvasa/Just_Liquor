@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Just Liquor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="pic/title.png" type="image/x-icon">
+</head>
+<body>
+    
+    <div class="navigator">
+        <div class="navbar">
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <img src="pic/logo.png" class="logo">
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="spirits.html">The Spirits</a></li>
+                <li><a href="cocktails.html">Crafted Cocktails</a></li>
+                <li><a href="beer.html">Beer</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="faq.html">FAQs</a></li>
+            </ul>
+        </div>
+
+        <div class="info">
+            <h1><span>“I work</span><br>
+                <span>until beer</span><br>
+                <span>o'clock.”</span></h1><br>
+                
+            <div class="back-container">
+                <a href="about.html" class="back-button">
+                    <img src="pic/next.png" alt="Next" class="next-icon"> 
+                </a>
+            </div>
+        </div>
+
+        <div class="image">
+            <img src="pic/image.jpg" class="gwapo">
+        </div>
+
+        <script>
+            function toggleMenu() {
+                const navLinks = document.querySelector('ul');
+                navLinks.classList.toggle('active');
+            }
+        </script>
+        
+
+</body>
+</html>

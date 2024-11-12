@@ -1,0 +1,117 @@
+* {
+    background-color: #1d3a32;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navigator {
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar {
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    width: 160px;
+    height: 70px;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+ul {
+    margin-top: -4%;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 3%;
+    transition: .4s ease;
+}
+
+ul li a:hover {
+    color: rgb(230, 104, 59);
+}
+
+
+.back-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #ff1313;
+}
+
+.about-us {
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+    color: white;
+}
+
+.about-us h2 {
+    color: orange;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-us h3 {
+    color: orange;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-us span {
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-size: 25px;
+}
+
+.banner {
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.banner img {
+    width: 100%;
+    max-height: 400px;
+    border-radius: 10px;
+}
