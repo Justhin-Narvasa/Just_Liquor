@@ -3,4 +3,4 @@
         <a href="https://justhin-narvasa.github.io/Just_Liquor/" class="button" target="_blank">Visit Now</a>
         <br>
         <br>
-        ![image](https://github.com/user-attachments/assets/2d758f2b-51de-4584-bec5-755f14e78234)
+![image](https://github.com/user-attachments/assets/a0a68dc0-76b2-42e9-8e4c-770351da249d)
